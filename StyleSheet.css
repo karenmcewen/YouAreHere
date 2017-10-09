@@ -1,0 +1,27 @@
+﻿body {
+    background-color:rgb(0,0,0);
+}
+/*dots go before .classes and not before tags -- '.class p' will format all <p> within that class only*/
+
+.jumbotron {
+    background-image: url('Images/stars.jpg');
+    color:gold;
+    text-align:center;
+    height:200px;
+    }
+
+.section1{
+    background-color:black;
+    color:blueviolet;
+    text-align:center;
+}
+
+.section1 img{ /*do not put a dot before the img tag - this should format just the images in this section*/
+    height:300px; 
+    width:auto; 
+    max-width:300px;
+    border:solid;    
+    border-color:blueviolet;
+    margin:20px;
+   
+}
